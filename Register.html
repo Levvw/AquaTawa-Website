@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+</head>
+
+<body>
+
+    <b>
+        <p> Register <span>Page</span></p>
+    </b>
+    <!-- span to isolate a word to deal with it alone in css .. Div is the same but for a bulk of stuff
+        ... <br> is a newline <hr> is an actuall line-->
+    <!--table > caption,thead,tbody,tfoot> th/tr/td-->
+    <!--
+        to prevent too many divs and classes.. there are header,nav,aside,section,article,footer..
+    -->
+    <!-- 
+        <figure>
+            <img src = "bla" alt = "imageofbla">
+            <figcaption> caption of image </figcaption>
+        </figure>
+
+        >> to style both the caption and image with css together as a div/class replacement
+    -->
+    <div class="info">
+        <form action="" method="POST">
+            <!--post doesnt show info on url, get shows-->
+            <label for="u">Username</label>
+            <input id="u" type="text" required placeholder="username" name="user" autofocus maxlength="20">
+            <br> <br>
+            <label for="p">Password</label>
+            <input id="p" type="password" required placeholder="password" name="password" minlength="6" maxlength="20">
+            <br> <br>
+            <label for="e">Email</label>
+            <input id="e" type="email" required placeholder="example@email.com" name="email">
+            <br>
+            <input type="reset">
+            <input type="submit" value="Register">
+            <!-- name is used for action backend ,
+                  other input attributes: readonly => cannot modify but sent to back end |
+                  disabled => cannot modify and not sent to backend
+            type ="hidden" makes it hidden used for backend to send ip.. etc
+            type = "color" gives u range of colors to choose from and saves it in hexcolor
+            type = "range" min = "0" max = "100" step = "10" 
+            type = "file"   >> makes u upload a file 
+            type = "search"
+            type = "date" >> can be used in age !! there are also types: year - month - time
+            type = "url"  >> has error handelling to must enter a url 
+            type = "number" min = "0" step = "1" >> used for age..etc-->
+
+
+            <!-- <input id="m" type="radio" value="male" name="male">
+            <label for="m"> Male </label>
+            <input id="f" type="radio" value="female" name="female">
+            <label for="f"> Female </label>
+
+            Label is after radio/checkbox not before .. for style .. also radio is only once checkbox can be more than 1
+            for id ="id" makes it active when u PRESS THE LABEL -->
+            <!-- <label for="g">Gender</label>
+            <select id='g' name="gender">
+                <option value="m">Male</option>
+                <option value="f">Female</option>
+            </select>
+            value is sent to the backend >not the text< can group a group of options in optgroup tag that can tag label
+                attribute select has attribute multiple  
+            
+            <button>click</button> , <wbr> >> breaks between text , <bdi> >> seperates english from arabic .. etc islolates word 
+                <q>qoute</q>  <blockqoute>qoute</blockqoute>-->
+
+            <!-- <textarea name="text" rows="5" cols="40"
+                placeholder="Text Text" maxlength="50"></textarea> -->
+            <!-- other form attributes: novalidate | target = "blank" >> opens info in new page | -->
+
+
+            <!-- <input list="Countries">
+            <datalist id="Countries">
+                <option value='Egypt'>
+                <option value='US'>
+                <option value='Spain'>
+                <option value='Poland'>
+                <option value='France'>
+                <option value='England'>
+                    <br>
+                    <p> similar to select but no need for closing input and u can SEARCH IN IT</p>
+                    <p>YOU MUST GIVE DATALIST THE ID OF WHAT IS FOR LIST</p>
+                </datalist> -->
+        </form>
+    </div>
+
+</body>
+
+</html>
