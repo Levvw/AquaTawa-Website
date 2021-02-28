@@ -1,0 +1,10 @@
+.one {
+    color:blue;
+    font-size: 30px;
+}
+/* normal tag name will go for every tag to select a class .classname to select an id #idname but id is bad practice */ 
+
+/* you can write css style in here as an external file using link which is best practice, or in 
+<style> write css codes here </style> on html file or as global attribute
+ style = "write css code here" which are bad pracitces */
+
