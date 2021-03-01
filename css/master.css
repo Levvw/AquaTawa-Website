@@ -1,10 +1,31 @@
 .one {
     color:blue;
     font-size: 30px;
+    background-color: rgb(230 255 255 / 50%);
 }
 /* normal tag name will go for every tag to select a class .classname to select an id #idname but id is bad practice */ 
 
 /* you can write css style in here as an external file using link which is best practice, or in 
 <style> write css codes here </style> on html file or as global attribute
  style = "write css code here" which are bad pracitces */
+.provide {
+    background-color: #aed5f5;
+    background-image: url("../imgs/water.png");
+    background-repeat: repeat-x;
+    background-attachment: fixed;
+    background-position: 30% 40%; /* or left top / center top ..etc */
+    background-size: cover; /* cover stretches, contain doesnt stretch or 200px 80px or 50% 70% */
+    /* border-width: 10px 20px;
+    border-style: solid dotted dashed;
+    border-color: blue  green; */
+    border: 5px solid cyan;
+ 
+}
+.all-body {
+    padding: 30px; /* with clock cycle top right bot left 1 value does it for all | other takes top with bot 
+    and right with left | there is also padding-left ..etc  also can take percentage */ 
+    /* width: 80%; */
+    width : 80%;
+    margin: auto; /* same as padding but can also take negative values */
 
+}
