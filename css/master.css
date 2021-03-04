@@ -3,9 +3,34 @@
     height: 100px;
     color:#243142;
     font-size: 30px;
+    text-align: center;
     /* background-color: rgb(230 255 255 / 50%); */
+    word-spacing: 4px;
+    letter-spacing: 0.5px;
     
 }
+.title {
+    background-color: #dcf3f7;
+    width: fit-content;
+    text-shadow: 1px 1px 0 cyan;
+    text-align: center;
+    vertical-align: middle;
+    text-transform: uppercase;
+    letter-spacing: 2px; /*can take -ve values same for word-spacing*/
+    white-space: nowrap; /* default is normal >> makes it br when width is reached*/
+    /* word-break: break-all; */
+    /* word-break: break-word */
+    
+   
+    
+}
+/*   max-wdith, min-width, max-height, min-height*
+overflow / overflow-x / overflow-y : hidden / auto >> adds a scroll if text exceeded
+text-overflow: ellipsis >> will do dots.. if overflow hidden
+/
+/* direction : ltr >> default for english /  rtl >> for arabic*/
+
+
 /* normal tag name will go for every tag to select a class .classname to select an id #idname but id is bad practice */ 
 
 /* you can write css style in here as an external file using link which is best practice, or in 
@@ -51,7 +76,9 @@ section {
 
 }
 article {
-    
+    text-align: left ;
+    text-indent: 20px;
+    line-height: 1.6;
 }
 header {
     
@@ -65,4 +92,26 @@ nav {
 aside {
 
 }
+a {
+    background-color: darkblue;
+    color: white;
+    display: inline-block;
+    padding: 1px;
+    margin: 1px;
+    border-radius: 4px;
+    text-decoration: none;
+    
+}
+/*
+.one , .lol , div , .test {
+common attributes and values here
+}
+
+div p {    
+    nesting >>  parent tag then inner tag or inner class and so on then curely braces
+}
+
+body div .title {
+    nesting >> to make sure there are no conflicts
+} 
 
