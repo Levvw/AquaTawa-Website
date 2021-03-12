@@ -7,6 +7,7 @@
     /* background-color: rgb(230 255 255 / 50%); */
     word-spacing: 4px;
     letter-spacing: 0.5px;
+    font-family: 'Cairo', sans-serif;
     
 }
 .title {
@@ -50,11 +51,16 @@ text-overflow: ellipsis >> will do dots.. if overflow hidden
   
 }
 body {
+    /* inner elements and classes inside inherit some attributes and other attributes such as padding and background-color: 
+    are not inherited .. u can also put anny-attribute : inherit; */
     padding: 30px; /* with clock cycle top right bot left 1 value does it for all | other takes top with bot 
     and right with left | there is also padding-left ..etc  also can take percentage */ 
+    font-family: Arial, Helvetica, sans-serif;
     width : 80%;
     margin: auto; /* same as padding but can also take negative values */
     visibility: visible; /* visible is default| hidden hides it but leaves its space |display: none; hides it and no space */
+    text-align: left ;
+    
 }
 /* 
  Display: block / inline / inline-block / none 
@@ -76,9 +82,12 @@ section {
 
 }
 article {
-    text-align: left ;
+    text-align: inherit ;
     text-indent: 20px;
     line-height: 1.6;
+    font-family: 'Cairo', sans-serif;
+font-family: 'Recursive', sans-serif;
+    
 }
 header {
     
