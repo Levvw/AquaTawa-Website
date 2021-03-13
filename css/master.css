@@ -1,105 +1,101 @@
+
+nav {
+    
+    margin: 0px 100px;
+    display: block;
+    /* background-color: #e4f5f5; */
+    height: 60px;
+    background-image: url("../imgs/wave.png");
+    background-size: 250px ;
+    background-position: left;
+    background-repeat: no-repeat; 
+    
+    
+}
+nav div {
+    
+}
+
 .about {
-    width: 1000px;
-    height: 100px;
+   
+    background-image: url("../imgs/water.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 500px;    
     color:#243142;
     font-size: 30px;
     text-align: center;
-    /* background-color: rgb(230 255 255 / 50%); */
     word-spacing: 4px;
     letter-spacing: 0.5px;
     font-family: 'Cairo', sans-serif;
-    
+    text-transform: uppercase;   
+    font-weight: bold;       
 }
-.title {
-    background-color: #dcf3f7;
-    width: fit-content;
-    text-shadow: 1px 1px 0 cyan;
-    text-align: center;
-    vertical-align: middle;
-    text-transform: uppercase;
-    letter-spacing: 2px; /*can take -ve values same for word-spacing*/
-    white-space: nowrap; /* default is normal >> makes it br when width is reached*/
-    /* word-break: break-all; */
-    /* word-break: break-word */
-    
-   
-    
-}
-/*   max-wdith, min-width, max-height, min-height*
-overflow / overflow-x / overflow-y : hidden / auto >> adds a scroll if text exceeded
-text-overflow: ellipsis >> will do dots.. if overflow hidden
-/
-/* direction : ltr >> default for english /  rtl >> for arabic*/
 
-
-/* normal tag name will go for every tag to select a class .classname to select an id #idname but id is bad practice */ 
-
-/* you can write css style in here as an external file using link which is best practice, or in 
-<style> write css codes here </style> on html file or as global attribute
- style = "write css code here" which are bad pracitces */
 .provide {
     background-color: #aed5f5;
     background-image: url("../imgs/water.png");
     background-repeat: repeat-x;
-    background-attachment: fixed; /*scroll is default */
-    background-position: 30% 40%; /* or left top / center top ..etc */
-    background-size: cover; /* cover stretches, contain doesnt stretch or 200px 80px or 50% 70% */
-    /* border-width: 10px 20px;
-    border-style: solid dotted dashed;
-    border-color: blue  green; */
-    border: 5px solid cyan; /*.. outline..*/
-  
+    background-attachment: fixed; 
+    background-position: 30% 40%; 
+    background-size: cover; 
+   border:  5px solid cyan; 
 }
 body {
-    /* inner elements and classes inside inherit some attributes and other attributes such as padding and background-color: 
-    are not inherited .. u can also put anny-attribute : inherit; */
-    padding: 30px; /* with clock cycle top right bot left 1 value does it for all | other takes top with bot 
-    and right with left | there is also padding-left ..etc  also can take percentage */ 
-    font-family: Arial, Helvetica, sans-serif;
-    width : 80%;
-    margin: auto; /* same as padding but can also take negative values */
-    visibility: visible; /* visible is default| hidden hides it but leaves its space |display: none; hides it and no space */
-    text-align: left ;
+    margin: 0;
+    clear :both;
     
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: left ;    
 }
-/* 
- Display: block / inline / inline-block / none 
 
-block: div
-- takes full width/height if not specified (width: .. height:..)
-- adds break
-- respects width/height/padding/margin
-
-inline: span
-- doesnt respect width/height
-- doesnt add break
-- respects padding and margin but with left and right only 
-
-inline-block
-- respects width/height/padding/margin
--  Allows elements before and after it */
 section {
+
+   width:  80%;
+  margin: auto; 
 
 }
 article {
     text-align: inherit ;
     text-indent: 20px;
+    font-size: 16px;      
+    font-style: normal;
+    font-weight: 100;
     line-height: 1.6;
     font-family: 'Cairo', sans-serif;
-font-family: 'Recursive', sans-serif;
+    font-family: 'Recursive', sans-serif;
     
 }
 header {
     
 }
-footer {
 
-}
-nav {
 
-}
 aside {
 
+}
+.footer {
+   
+    
+    background-color:#225459;
+    color : white;
+    height: 300px;
+}
+.rights {
+    background-color: #272c31 ;
+    color:#225459;
+    text-align: center;
+    
+    height: 100px;
+    font-size: 20px;
+    
+}
+.rights span {
+    vertical-align: middle;
+   line-height: 100px;
+   font-weight: bold;
+  
 }
 a {
     background-color: darkblue;
@@ -109,18 +105,8 @@ a {
     margin: 1px;
     border-radius: 4px;
     text-decoration: none;
-    
-}
-/*
-.one , .lol , div , .test {
-common attributes and values here
+
 }
 
-div p {    
-    nesting >>  parent tag then inner tag or inner class and so on then curely braces
-}
 
-body div .title {
-    nesting >> to make sure there are no conflicts
-} 
 
