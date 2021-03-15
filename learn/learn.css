@@ -62,3 +62,19 @@ text-overflow: ellipsis >> will do dots.. if overflow hidden
     
   /* letter-spacing: 2px; can take -ve values same for word-spacing
     white-space: nowrap;  default is normal >> makes it br when width is reached */
+
+   /* to divide equal heights and width squares .. lets say 4 kids   it means we have 5 spaces between them so 6% 
+   and 94% left 
+parent {
+height: 500px
+
+   }
+kids {
+height: 400px;
+width: calc(94%/4);
+margin-left: 1%;
+float: left;
+
+if height of kids is more than height of parent do class add clear:both do it and added it after kids in  */
+
+  /* if u want to allign an img in div just to margin:auto */

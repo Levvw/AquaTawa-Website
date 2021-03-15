@@ -102,18 +102,81 @@ header {
 aside {
 
 }
-.footer {
+footer {
    
     
-    background-color:#225459;
+    background-color:#0a8d99;
     color : white;
-    height: 300px;
-}
-.rights {
-    background-color: #272c31 ;
-    color:#225459;
-    text-align: center;
+    height: 600px;
+    width: 100%;
+   
     
+}
+
+.footercontact,.footersocial, .footermenu {
+    
+    
+    float: left;
+    width: calc(90%/3);
+    height: 600px;
+    margin-left: 2.5%; 
+    /* it has to be left! */
+   
+}
+
+footer img {
+     height: 120px;
+     display: block;
+     margin: auto;
+     margin-bottom: 50px;
+}
+.fbclipart{
+    background-image: url("../imgs/fb.PNG");
+    background-repeat: no-repeat;
+    background-position: 110px -1px;
+}
+.instaclipart{
+    background-image: url("../imgs/insta.PNG");
+    background-repeat: no-repeat;
+    background-position: 112px -3px;
+    background-size: 132px;
+}
+.emailclipart{
+    background-image: url("../imgs/email.PNG");
+    background-repeat: no-repeat;
+    background-position: 113px -3px;
+    background-size: 130px;
+}
+
+footer label {
+    
+    text-align: center;
+    padding-top: 20px ;
+    width: 100%;
+    display: block;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-family: 'Changa', sans-serif;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    
+}
+footer a {
+
+    text-align: center;
+    display: block;
+    margin: 20px;
+    font-size: 20px;
+    text-decoration: none;
+    height: 50px;
+    color: white;
+}
+
+
+.rights {
+    background-color: #1e2124 ;
+    color:#0a8d99;
+    text-align: center;    
     height: 100px;
     font-size: 20px;
     
@@ -122,18 +185,5 @@ aside {
     vertical-align: middle;
    line-height: 100px;
    font-weight: bold;
-  
-}
-.footerlinks {
-    background-color: darkblue;
-    color: white;
-    display: inline-block;
-    padding: 1px;
-    margin: 1px;
-    border-radius: 4px;
-    text-decoration: none;
 
 }
-
-
-
