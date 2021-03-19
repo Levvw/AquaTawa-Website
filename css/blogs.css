@@ -30,45 +30,6 @@ nav a {
     color:cyan;
 }
 
-.about {
-   
-    background-image: url("../imgs/water.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 700px;    
-    text-align: center;
-    font-weight: bold;                  
-}
-.about .abouthead {
-    color:#243142;
-    padding-top: 100px;
-    font-size: 32px;
-    word-spacing: 4px;
-    letter-spacing: 0.5px;
-    font-family: 'Cairo', sans-serif;
-    text-transform: uppercase; 
-    
-    -webkit-text-stroke: 1.2px #2e65a3;  
-   
-}
-.slogan {
-    font-family: 'Dancing Script', cursive;
-    font-size: 45px;
-    color: red;
-    -webkit-text-stroke: 0.2px black;  
-    padding-top: 200px;
-   
-}
-.provide {
-    background-color: #aed5f5;
-    background-image: url("../imgs/water.png");
-    background-repeat: repeat-x;
-    background-attachment: fixed; 
-    background-position: 30% 40%; 
-    background-size: cover; 
-   border:  5px solid cyan; 
-}
 body {
     margin: 0;
     margin-top: 60px;
@@ -77,30 +38,6 @@ body {
     text-align: left ;    
 }
 
-section {
-
-   width:  80%;
-  margin: auto; 
-
-}
-article {
-    text-align: inherit ;
-    text-indent: 20px;
-    font-size: 16px;      
-    font-style: normal;
-    font-weight: 100;
-    line-height: 1.6;
-    font-family: 'Cairo', sans-serif;
-    font-family: 'Recursive', sans-serif;
-    
-}
-header {
-    
-}
-
-aside {
-
-}
 footer {
    
     
