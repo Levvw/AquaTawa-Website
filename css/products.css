@@ -12,6 +12,19 @@ nav {
     position: fixed;
     top:0;       
 }
+.gotop {
+    display: inline;
+    float: left;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 30px;
+    position: fixed;
+    left: 1250px;
+    top: 580px;
+    background-image: url(../imgs/up.svg);
+    }
 nav a {
     text-decoration: none;
     float: Right;
@@ -45,6 +58,7 @@ section{
     height: 2000px;
 }
 article{
+    
     
 }
 

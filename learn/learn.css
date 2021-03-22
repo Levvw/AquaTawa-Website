@@ -78,3 +78,26 @@ float: left;
 if height of kids is more than height of parent do class add clear:both do it and added it after kids in  */
 
   /* if u want to allign an img in div just to margin:auto */
+  /* position: static; mafesh 7aga hat2asar feh.. top: 69; , left right bottom: anything doesnt matter */
+  /* position: relative; will move left right top bottom relative to itself */
+  /* position: absolute; will move top right left bottom relative to parent actual page or if its inside a div
+    it will move relative to it if and only if parent div has position relative
+    so child absolute, parent relative, child moves in parent */
+    /* position: fixed; moves right left bottom top relative to page only and stays on page when scroll 
+    used in Nav and Pagetop button      */
+    /* position: sticky;
+    top:0;       makes it scroll till it reaches top:0 then it is fixed */
+   
+  .levw {
+display: inline;
+    font-size: 30px;
+    background-color: red;  
+    
+  }
+  .levw2{
+    display: inline;
+    font-size: 30px;
+    background-color: blue;
+    /* opacity: 0.5; */
+  }
+  
