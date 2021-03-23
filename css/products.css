@@ -10,8 +10,8 @@ nav {
     background-repeat: no-repeat; 
     overflow: hidden;
     position: fixed;
-    top:0;       
-}
+    top:0;  }
+
 .gotop {
     display: inline;
     float: left;

@@ -87,17 +87,43 @@ if height of kids is more than height of parent do class add clear:both do it an
     used in Nav and Pagetop button      */
     /* position: sticky;
     top:0;       makes it scroll till it reaches top:0 then it is fixed */
-   
+    /* opacity takes values less than 1 , 1 is visible and it applies to whole div */
+    /* z-index must work with position, it takes a number and the higher appears in front 
+    default is from down to up in html */
+    /* ul {
+      list-style-image: url(../imgs/up.svg);
+      list-style: none;
+      padding-left: 0;
+      margin: 0;   to remove default style, can be used in NAV!
+    }
+    */
+    /* other pseodoclasses/states like hover are visited,checked,link,empty,focus
+    element/tag/class:pseodoclass { atributes and values} */
+    /* .hi::first-letter {
+      display: inline-block;
+      font-size: 40px;
+      background-color: cyan ;
+    }   
+    1 colon >> pseodoclasses/states
+    2 colons >> pseodoELEMENTS like >> first-letter , first-line and SELECTION!!..etc (not an actuall :tag)
+    used better than span if u cant access html file */
+
   .levw {
 display: inline;
     font-size: 30px;
     background-color: red;  
-    
-  }
+   }
+   .levw::selection{
+    background-color: black;
+    color: cyan;
+   }
+ 
   .levw2{
     display: inline;
     font-size: 30px;
     background-color: blue;
-    /* opacity: 0.5; */
+    
+  
+    
   }
   
