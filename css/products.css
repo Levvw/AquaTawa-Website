@@ -10,7 +10,8 @@ nav {
     background-repeat: no-repeat; 
     overflow: hidden;
     position: fixed;
-    top:0;  }
+    top:0; 
+    box-shadow: 0 1px 20px 0 rgba(24, 32, 37, 0.315) ; }
 
 .gotop {
     display: inline;
@@ -51,6 +52,7 @@ nav a {
     padding-top: 30px;
     font-weight: bold;
     font-family: 'Cairo', sans-serif;
+    text-shadow: 1px 1px 10px rgba(128, 128, 128, 0.473);
     
 }
 section{

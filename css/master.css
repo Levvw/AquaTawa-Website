@@ -10,7 +10,9 @@ nav {
     background-repeat: no-repeat; 
     overflow: hidden;
     position: fixed;
-    top:0;       
+    top:0;      
+    box-shadow: 0 1px 20px 0 rgba(24, 32, 37, 0.315) ;
+    
       
 }
 .gotop {
@@ -52,26 +54,29 @@ nav a {
     background-position: center;
     height: 700px;    
     text-align: center;
-    font-weight: bold;                  
+    font-weight: bold;     
+    
+          
 }
 .about .abouthead {
     color:#243142;
     padding-top: 100px;
-    font-size: 32px;
+    font-size: 33px;
     word-spacing: 4px;
     letter-spacing: 0.5px;
     font-family: 'Cairo', sans-serif;
     text-transform: uppercase; 
+    text-shadow: 2px 2px 15px rgba(32, 127, 216, 0.74);
     
-    -webkit-text-stroke: 1.2px #2e65a3;  
+     
    
 }
 .slogan {
     font-family: 'Dancing Script', cursive;
     font-size: 45px;
     color: red;
-    -webkit-text-stroke: 0.2px black;  
     padding-top: 200px;
+    text-shadow: 1px 1px 10px rgba(128, 128, 128, 0.418);
    
 }
 .provide {

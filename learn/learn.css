@@ -107,11 +107,53 @@ if height of kids is more than height of parent do class add clear:both do it an
     1 colon >> pseodoclasses/states
     2 colons >> pseodoELEMENTS like >> first-letter , first-line and SELECTION!!..etc (not an actuall :tag)
     used better than span if u cant access html file */
+    /* .levw::before {
+      content: "";
+      height: 0px;
+      width: 0px;
+      background-color: cyan;
+      position: absolute;
+      top: 0;
+      left: -50 px;
+      border-style: solid;
+      border-width: 10px;
+      border-color: transparent transparent transparent red;
+    }
+    before and after are pseodoelements behind and ater the div/anything better than
+    making a span behind or after it in html file. It must have content = "" empty or type something
+    in that before or after space 
 
+  arrows can be made by borderstyle and borderwidth ten bordercolor transparent 3 sides and 1 colored
+  where the arrow points , width and height must be 0 */
+  /* border: 2px solid purple ;
+    border-radius: 10%;
+    border-bottom-right-radius: 30px; */
+    
+    /* text-shadow: Hshadow Vshadow Blur Color */
+    /* box-shadow: H-shadow V-Shadow Blur Spread Color Inset/ or leave it empty if outset
+    adds prefix when use css auto prefix easier */
+    
+* {
+    box-sizing: border-box;
+}
+/* content-box >> by7sb el width wel height bas
+border-box >> by7sab el width wel height wel padding wel margin */
+
+
+
+    .levw , .levw2 {
+    width: 70%;
+    text-align: center;
+    margin-left: 50px;
+    position: relative;
+ 
+    }
+    
   .levw {
-display: inline;
     font-size: 30px;
     background-color: red;  
+    
+    
    }
    .levw::selection{
     background-color: black;
@@ -119,7 +161,6 @@ display: inline;
    }
  
   .levw2{
-    display: inline;
     font-size: 30px;
     background-color: blue;
     
