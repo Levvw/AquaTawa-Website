@@ -139,10 +139,11 @@ if height of kids is more than height of parent do class add clear:both do it an
 /* content-box >> by7sb el width wel height bas
 border-box >> by7sab el width wel height wel padding wel margin */
 
+/* width: 70% !important; , !important is used to override any cssfile> styletag >style inline attribute */
 
 
     .levw , .levw2 {
-    width: 70%;
+    width: 70%; 
     text-align: center;
     margin-left: 50px;
     position: relative;
@@ -152,8 +153,11 @@ border-box >> by7sab el width wel height wel padding wel margin */
   .levw {
     font-size: 30px;
     background-color: red;  
+    transition-duration: 500ms;
     
-    
+   }
+   .levw:hover {
+     margin: 2px;
    }
    .levw::selection{
     background-color: black;
@@ -163,8 +167,7 @@ border-box >> by7sab el width wel height wel padding wel margin */
   .levw2{
     font-size: 30px;
     background-color: blue;
-    
-  
+
     
   }
   
