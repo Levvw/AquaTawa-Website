@@ -1,6 +1,10 @@
 
+:root{
+    --footerColor: #0a8d99  
+    /* Global Variable */
+}
+
 nav {       
-    display: block;   
     width: 100%;
     background-color: white;
     height: 60px;
@@ -12,6 +16,8 @@ nav {
     position: fixed;
     top:0;      
     box-shadow: 0 1px 20px 0 rgba(24, 32, 37, 0.315) ;
+    display: flex;
+    flex-flow: row-reverse nowrap;
     
       
 }
@@ -131,10 +137,11 @@ aside {
 footer {
    
     
-    background-color:#0a8d99;
+    background-color: var(--footerColor,cyan);
     color : white;
     height: 600px;
     width: 100%;
+    display: flex;
    
     
 }
@@ -142,11 +149,11 @@ footer {
 .footercontact,.footersocial, .footermenu {
     
     
-    float: left;
     width: calc(90%/3);
     height: 600px;
     margin-left: 2.5%; 
     /* it has to be left! */
+    
    
 }
 
@@ -156,23 +163,19 @@ footer img {
      margin: auto;
      margin-bottom: 50px;
 }
-.fbclipart{
-    background-image: url("../imgs/fb.PNG");
+.fbclipart,.instaclipart,.emailclipart {
     background-repeat: no-repeat;
-    background-position: 110px -1px;
-    
+    background-size: contain;
+    margin-left: 170px;
+}
+.fbclipart{
+    background-image: url("../imgs/fb.svg");
 }
 .instaclipart{
-    background-image: url("../imgs/insta.PNG");
-    background-repeat: no-repeat;
-    background-position: 112px -3px;
-    background-size: 132px;
+    background-image: url("../imgs/insta.svg");     
 }
 .emailclipart{
-    background-image: url("../imgs/email.PNG");
-    background-repeat: no-repeat;
-    background-position: 113px -3px;
-    background-size: 130px;
+    background-image: url("../imgs/email.svg"); 
 }
 
 
@@ -208,7 +211,7 @@ footer a {
 
 .rights {
     background-color: #1e2124 ;
-    color:#0a8d99;
+    color: var(--footerColor,cyan);
     text-align: center;    
     height: 100px;
     font-size: 20px;

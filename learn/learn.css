@@ -140,6 +140,12 @@ if height of kids is more than height of parent do class add clear:both do it an
 border-box >> by7sab el width wel height wel padding wel margin */
 
 /* width: 70% !important; , !important is used to override any cssfile> styletag >style inline attribute */
+ /* display: flex; */
+ /* flex-direction: row / row-reverse  >> ganb ba3d  similar to float left / right but better */
+ /* flex-direction: coloumn / coloumn-reverse; >> ta7t ba3d*/
+ /* flex-wap: wrap >> zyada hatnzl ta7t | no-wrap >> default, zyada hatt2lel el width | wrap-reverse >> elzyada fo2 */
+ /* flex-flow: direction, wrap;    ex>  row,wrap */
+
 
 
     .levw , .levw2 {
@@ -147,7 +153,7 @@ border-box >> by7sab el width wel height wel padding wel margin */
     text-align: center;
     margin-left: 50px;
     position: relative;
- 
+
     }
     
   .levw {
