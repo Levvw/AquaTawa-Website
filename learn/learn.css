@@ -151,6 +151,8 @@ border-box >> by7sab el width wel height wel padding wel margin */
  /* for child:
  flex-grow / flex-shrink : 0,1,2..etc */ 
  /* order: 0,1,2,3 etc */
+ /* flex-basis: 100px; */
+ /* display: inline-flex; same as flex but doesnt break */
 
 
 
