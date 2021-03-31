@@ -69,6 +69,7 @@ section{
     flex-wrap: wrap;
    justify-content: space-evenly; 
    /* space-between, flex-start, flex-end, centre  */
+  
     
 }
 
@@ -81,6 +82,11 @@ article{
     text-align: center;
     border-bottom: solid 10px var(--productColor,blue);
     box-shadow: 10px 10px 20px 0 grey ;
+    border-radius: 20px ;
+    -webkit-border-radius: 20px ;
+    -moz-border-radius: 20px ;
+    -ms-border-radius: 20px ;
+    -o-border-radius: 20px ;
 }
 article img {
     width: 400px;

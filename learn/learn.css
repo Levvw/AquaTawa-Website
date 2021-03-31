@@ -140,11 +140,17 @@ if height of kids is more than height of parent do class add clear:both do it an
 border-box >> by7sab el width wel height wel padding wel margin */
 
 /* width: 70% !important; , !important is used to override any cssfile> styletag >style inline attribute */
- /* display: flex; */
+ /*for parent : 
+  display: flex; */
  /* flex-direction: row / row-reverse  >> ganb ba3d  similar to float left / right but better */
  /* flex-direction: coloumn / coloumn-reverse; >> ta7t ba3d*/
  /* flex-wap: wrap >> zyada hatnzl ta7t | no-wrap >> default, zyada hatt2lel el width | wrap-reverse >> elzyada fo2 */
  /* flex-flow: direction, wrap;    ex>  row,wrap */
+ /* align-items: flex-end / flex-start / centre / default is stretch */
+ /* align-content: " " " " "" */
+ /* for child:m  
+ flex-grow / flex-shrink : 0,1,2..etc */ 
+ /* order: 0,1,2,3 etc */
 
 
 
@@ -152,7 +158,7 @@ border-box >> by7sab el width wel height wel padding wel margin */
     width: 70%; 
     text-align: center;
     margin-left: 50px;
-    position: relative;
+    position: relative; 
 
     }
     
