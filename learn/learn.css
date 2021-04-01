@@ -144,17 +144,16 @@ border-box >> by7sab el width wel height wel padding wel margin */
   display: flex; */
  /* flex-direction: row / row-reverse  >> ganb ba3d  similar to float left / right but better */
  /* flex-direction: coloumn / coloumn-reverse; >> ta7t ba3d*/
- /* flex-wap: wrap >> zyada hatnzl ta7t | no-wrap >> default, zyada hatt2lel el width | wrap-reverse >> elzyada fo2 */
+ /* flex-wrap: wrap >> zyada hatnzl ta7t | no-wrap >> default, zyada hatt2lel el width | wrap-reverse >> elzyada fo2 */
  /* flex-flow: direction, wrap;    ex>  row,wrap */
- /* align-items: flex-end / flex-start / centre / default is stretch */
- /* align-content: " " " " "" */
+ /* align-items: flex-end / flex-start / center / default is stretch    LEAVES SPACES */
+ /* align-content: same as align items but DOESNT LEAVE SPACES /
  /* for child:
  flex-grow / flex-shrink : 0,1,2..etc */ 
- /* order: 0,1,2,3 etc */
- /* flex-basis: 100px; */
+ /* order: DIGIT .. -1 is before all ... only important one*/
+ /* flex-basis: 100px;
+     /* align-self: .. */ 
  /* display: inline-flex; same as flex but doesnt break */
-
-
 
     .levw , .levw2 {
     width: 70%; 
@@ -165,14 +164,18 @@ border-box >> by7sab el width wel height wel padding wel margin */
     }
     
   .levw {
-    font-size: 30px;
-    background-color: red;  
-    transition-duration: 500ms;
-    
-   }
+  font-size: 30px;
+  background-color: red;
+  transition-duration: 500ms;
+  filter: grayscale(100);
+  -webkit-filter: grayscale(100);
+}
    .levw:hover {
      margin: 2px;
-   }
+     filter: grayscale(0);
+     -webkit-filter: grayscale(0);
+}
+     
    .levw::selection{
     background-color: black;
     color: cyan;
