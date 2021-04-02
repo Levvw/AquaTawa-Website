@@ -154,6 +154,9 @@ border-box >> by7sab el width wel height wel padding wel margin */
  /* flex-basis: 100px;
      /* align-self: .. */ 
  /* display: inline-flex; same as flex but doesnt break */
+ /* background-image: linear-gradient(direction or angle, colors)    can write % or px after each color */
+ /* caret-color: color;
+pointer-events: none; >>  removes action of the link */
 
     .levw , .levw2 {
     width: 70%; 
@@ -169,6 +172,7 @@ border-box >> by7sab el width wel height wel padding wel margin */
   transition-duration: 500ms;
   filter: grayscale(100);
   -webkit-filter: grayscale(100);
+  
 }
    .levw:hover {
      margin: 2px;
@@ -178,13 +182,12 @@ border-box >> by7sab el width wel height wel padding wel margin */
      
    .levw::selection{
     background-color: black;
-    color: cyan;
+    color: cyan
    }
  
   .levw2{
     font-size: 30px;
-    background-color: blue;
-
-    
+    background-image: linear-gradient(to right,blue ,white,yellow,orange,red);
+  
   }
   
