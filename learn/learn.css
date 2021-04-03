@@ -190,4 +190,25 @@ pointer-events: none; >>  removes action of the link */
     background-image: linear-gradient(to right,blue ,white,yellow,orange,red);
   
   }
+  .lol {
+background-color: grey;
+width: 500px;
+height: 500px;
+margin: auto;
+display: grid; 
+/* inline grid */
+grid-template-columns: auto auto auto ;
+grid-template-rows: auto auto;
+gap: 10px 20px;
+/* column-gap & row-gap */
+/* has align-content & justify-content same as flex */
+/* grid-template-areas: "levw levw levw lol lol  "; */
+
+  }
+  .lol div {
+    background-color: red;
+    font-size: 30px;
+    text-align: center;
+    /* grid-area: levw; */
+  }
   
