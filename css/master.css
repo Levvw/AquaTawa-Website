@@ -9,7 +9,7 @@ nav {
     background-color: white;
     height: 60px;
     background-image: url("../imgs/wave.png");
-    background-size: 250px ;
+    background-size: 250px;
     background-position: 100px;
     background-repeat: no-repeat; 
     overflow: hidden;
@@ -19,7 +19,6 @@ nav {
     display: flex;
     flex-flow: row-reverse nowrap;    
 }
-
 .gotop {
 display: inline;
 float: left;
@@ -33,6 +32,7 @@ left: 1250px;
 top: 580px;
 background-image: url(../imgs/up.svg);
 }
+
 nav a {
     text-decoration: none;
     float: Right;
